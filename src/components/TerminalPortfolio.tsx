@@ -644,14 +644,14 @@ export default function TerminalPortfolio({ id = 'retro-terminal-portfolio' }: T
               </div>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t-2 border-stone-800/10 mt-6 text-xs font-technical">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pt-6 border-t-2 border-stone-800/10 mt-6 text-xs font-technical">
               <div>
                 <p className="text-[10px] uppercase tracking-wider text-stone-400 font-bold mb-0.5">LOCATION</p>
-                <p className="text-stone-800 font-extrabold text-sm">Lucknow, Uttar Pradesh, India</p>
+                <p className="text-stone-800 font-extrabold text-sm break-words">Lucknow, Uttar Pradesh, India</p>
               </div>
               <div>
                 <p className="text-[10px] uppercase tracking-wider text-stone-400 font-bold mb-0.5">EMAIL GATEWAY</p>
-                <a href="mailto:workwithme2003@gmail.com" className={`font-extrabold text-sm hover:underline ${styleSet.textColor}`}>
+                <a href="mailto:workwithme2003@gmail.com" className={`font-extrabold text-sm hover:underline break-all ${styleSet.textColor}`}>
                   workwithme2003@gmail.com
                 </a>
               </div>
