@@ -970,15 +970,15 @@ export default function TerminalPortfolio({ id = 'retro-terminal-portfolio' }: T
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => { if (isAudioActive) retroAudio.playBeep(900, 0.1); }}
-                  className="group border-2 border-stone-800 bg-white p-4 rounded-xl flex items-center gap-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-0.5 hover:translate-y-0.5 transition-all text-stone-800"
+                  className="group border-2 border-stone-800 bg-[#ffb703] p-4 rounded-xl flex items-center gap-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-0.5 hover:translate-y-0.5 transition-all text-stone-900"
                 >
-                  <div className="p-2.5 rounded-lg border-2 border-stone-800 bg-stone-100 group-hover:bg-[#ffb703]/20 transition-colors">
-                    <FolderGit2 className="w-6 h-6 text-stone-800" />
+                  <div className="p-2.5 rounded-lg border-2 border-stone-800 bg-white/50 group-hover:bg-white/80 transition-colors">
+                    <FolderGit2 className="w-6 h-6 text-stone-900" />
                   </div>
                   <div>
-                    <span className="text-[10px] text-stone-400 uppercase font-bold font-technical block">GITHUB NODE</span>
-                    <span className="font-funky text-2xl font-bold tracking-wider group-hover:text-[#ffb703] transition-colors flex items-center gap-1.5">
-                      workwithme2003-cmyk <ExternalLink className="w-4.5 h-4.5 opacity-40 group-hover:opacity-100 transition-opacity" />
+                    <span className="text-[10px] text-stone-800/70 uppercase font-bold font-technical block">GITHUB NODE</span>
+                    <span className="font-funky text-2xl font-bold tracking-wider text-stone-900 flex items-center gap-1.5">
+                      workwithme2003-cmyk <ExternalLink className="w-4.5 h-4.5 opacity-60 group-hover:opacity-100 transition-opacity" />
                     </span>
                   </div>
                 </a>
@@ -989,15 +989,15 @@ export default function TerminalPortfolio({ id = 'retro-terminal-portfolio' }: T
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => { if (isAudioActive) retroAudio.playBeep(900, 0.1); }}
-                  className="group border-2 border-stone-800 bg-white p-4 rounded-xl flex items-center gap-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-0.5 hover:translate-y-0.5 transition-all text-stone-800"
+                  className="group border-2 border-stone-800 bg-[#0077b5] p-4 rounded-xl flex items-center gap-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-0.5 hover:translate-y-0.5 transition-all text-white"
                 >
-                  <div className="p-2.5 rounded-lg border-2 border-stone-800 bg-stone-100 group-hover:bg-[#1b366a]/20 transition-colors">
-                    <Network className="w-6 h-6 text-stone-800" />
+                  <div className="p-2.5 rounded-lg border-2 border-white/80 bg-white/10 group-hover:bg-white/30 transition-colors">
+                    <Network className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <span className="text-[10px] text-stone-400 uppercase font-bold font-technical block">LINKEDIN NODE</span>
-                    <span className="font-funky text-2xl font-bold tracking-wider group-hover:text-blue-700 transition-colors flex items-center gap-1.5">
-                      akhil-pratap-chaudhary <ExternalLink className="w-4.5 h-4.5 opacity-40 group-hover:opacity-100 transition-opacity" />
+                    <span className="text-[10px] text-white/70 uppercase font-bold font-technical block">LINKEDIN NODE</span>
+                    <span className="font-funky text-2xl font-bold tracking-wider text-white flex items-center gap-1.5">
+                      akhil-pratap-chaudhary <ExternalLink className="w-4.5 h-4.5 opacity-70 group-hover:opacity-100 transition-opacity" />
                     </span>
                   </div>
                 </a>
